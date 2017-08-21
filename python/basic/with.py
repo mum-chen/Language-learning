@@ -1,5 +1,3 @@
-
-
 class WithWhat(object):
     def __init__(self, *args, **kw):
         print("======= start =======")
@@ -12,7 +10,6 @@ class WithWhat(object):
     def __exit__(self, *args):
         print "exit", args
         print("======= end =========")
-
 
     def what(self):
         print "what"
